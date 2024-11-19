@@ -43,7 +43,7 @@ def get_map_title(dimension, year, org_level):
         f'{config.measure_dict[org_level][dimension]["map_title"]} for {year}', width=50
     )
     if org_level == "NHS England (Region)" or org_level == "National":
-        description = "Chloropleth map of England, broken in seven regions"
+        description = "Choropleth map of England, broken in seven regions"
     elif org_level == "Provider":
         description = "Scatter plot map of England, with each point representing a maternity care provider"
 
