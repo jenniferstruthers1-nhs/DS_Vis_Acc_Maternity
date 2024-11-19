@@ -58,7 +58,7 @@ content = html.Div(
                             id="map_title",
                         ),
                         html.H4(
-                            "Chloropleth map of England, broken in seven regions",
+                            "Choropleth map of England, broken in seven regions",
                             id="map_description",
                         ),  # move these to have different rowsand cols
                         dcc.Graph(
